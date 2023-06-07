@@ -6,3 +6,14 @@ def index(request):
 
 def create(request):
     return render(request, 'create.html')
+
+def show(request, id):
+    print(id)
+    # buscar un muro
+    return render(request, 'create.html')
+
+def edit(request, id):
+    print(id)
+    # buscar un muro
+    return render(request, 'create.html')
+    
