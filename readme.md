@@ -1,7 +1,7 @@
 # instalacion
 
 ```
-pip install requeriments.txt
+pip install -r requeriments.txt
 
 
 py manage.py runserver
